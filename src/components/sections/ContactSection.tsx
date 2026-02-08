@@ -3,7 +3,6 @@
 import { useState, useCallback } from "react";
 import { useNavigation } from "@/context/NavigationContext";
 import SectionTitle from "@/components/ui/SectionTitle";
-import { c } from "@apollo/client/react/internal/compiler-runtime";
 
 export default function ContactSection() {
   const { animatingSection, registerSectionRef } = useNavigation();

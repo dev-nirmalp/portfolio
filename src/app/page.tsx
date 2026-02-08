@@ -7,7 +7,6 @@ import SkillsSection from "@/components/sections/SkillsSection";
 import PortfolioSection from "@/components/sections/PortfolioSection";
 import AboutSection from "@/components/sections/AboutSection";
 import ContactSection from "@/components/sections/ContactSection";
-import Preloader from "@/components/Preloader";
 
 export default function Page() {
   return (
@@ -21,7 +20,6 @@ export default function Page() {
       <PortfolioSection />
       <AboutSection />
       <ContactSection />
-      {/* <Preloader /> */}
     </>
   );
 }
